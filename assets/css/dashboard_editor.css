@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- */
+/*  CSS Applied to the Wordpress Content Editor */
+
+BODY {
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px;
+    margin: 0;
+    background-color: red;
+}
+BODY.wp-autoresize {
+    padding: 15px !important;
+}
+
+P {
+    margin-top: 0;        
+}
+
+A {
+    color: inherit;
+}
+
+H2 {
+    font-size: 26px;    
+    line-height: 26px;    
+    text-transform: uppercase;
+}
+
+H3 {
+    font-size: 14px;   
+    line-height: 18px;     
+    text-transform: uppercase;
+}

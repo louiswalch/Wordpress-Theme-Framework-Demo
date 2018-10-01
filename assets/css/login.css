@@ -1,0 +1,67 @@
+BODY.login {
+    background: white;
+    color: #606260;
+}
+
+DIV.login {
+    background-color: white;
+    color: #606260;
+    padding-top: 60px; 
+    width: 370px;
+}
+
+.login H1 A {
+    background: url('login_logo.png') no-repeat top center;
+    background-size: 100% auto;
+    width: 68px;
+    height: 29px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block; 
+}
+
+.login FORM {
+    padding: 36px 34px 56px;
+}
+
+.login #backtoblog {
+    display: none !important;
+}
+
+.login label {
+    font-size: 10px;
+    color: #606260;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.login form .input, 
+.login input[type="text"] {
+    background-color: white;
+    border: 1px solid #606260;
+    font-size: 21px;
+    font-weight: normal;
+    color: #606260;
+    padding: 9px;
+}
+
+.wp-core-ui .button-primary {
+    padding: 22px 32px !important;
+    line-height: 0 !important;
+    display: inline-block !important;
+    letter-spacing: 1.75px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    width: auto !important;
+    text-decoration: none !important;
+    position: relative !important;
+    background-color: #606260 !important;
+    color: white !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
