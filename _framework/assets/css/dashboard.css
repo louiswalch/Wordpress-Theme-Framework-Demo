@@ -1,0 +1,13 @@
+BODY {
+    background: url('https://img00.deviantart.net/3361/i/2009/177/7/1/pink_star_unicorn_background_by_mimineko828.jpg');
+}
+
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback, 
+#adminmenuwrap {
+    background-color: #b60065;
+}
+#wpadminbar {
+    background-color: #8b265e;
+}

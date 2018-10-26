@@ -43,22 +43,36 @@ add_action( 'init', function() {
     // Create the taxonomy.
     register_taxonomy($slug, [$post_type], $args);
 
+
+    // ---------------------------
     // Optional: Add permalink shortcut to the term edit page.
+
     add_filter($slug . '_term_edit_form_top', function ($tag, $taxonomy) {
         if (!empty($tag) && ($link = get_term_link($tag))) {
             echo '<div><strong>Permalink: </strong><a href="'. $link .'" target="_blank">'. $link .'</a></div>';
         }
     }, 10, 2);  
 
+
+    // ---------------------------
     // Optional: Remove the 'description' field from term creation form.
+
     add_filter($slug . '_add_form', function () {
         echo '<style>.term-description-wrap{display:none;}</style>';
     });
+
+
+    // ---------------------------
     // Optional: Remove the 'description' field from term edit page.
+
     add_filter($slug . '_edit_form', function () {
         echo '<style>.term-description-wrap{display:none;}</style>';
     });
+
+
+    // ---------------------------
     // Optional: Remove the 'description' column from the table in 'edit-tags.php'
+
     add_filter('manage_edit-' . $slug . '_columns', function ($columns) {
         if (isset($columns['description'])) unset( $columns['description']);   
         return $columns;

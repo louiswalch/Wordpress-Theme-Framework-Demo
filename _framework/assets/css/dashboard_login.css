@@ -5,16 +5,16 @@ BODY.login {
 
 DIV.login {
     background-color: white;
-    color: #606260;
+    color: #8b265e;
     padding-top: 60px; 
     width: 370px;
 }
 
 .login H1 A {
-    background: url('login_logo.png') no-repeat top center;
-    background-size: 100% auto;
-    width: 68px;
-    height: 29px;
+    background: url('../img/logo.jpg') no-repeat top center;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
     text-indent: -9999px;
     overflow: hidden;
     display: block; 
@@ -30,7 +30,7 @@ DIV.login {
 
 .login label {
     font-size: 10px;
-    color: #606260;
+    color: #8b265e;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -38,10 +38,10 @@ DIV.login {
 .login form .input, 
 .login input[type="text"] {
     background-color: white;
-    border: 1px solid #606260;
+    border: 1px solid #8b265e;
     font-size: 21px;
     font-weight: normal;
-    color: #606260;
+    color: #8b265e;
     padding: 9px;
 }
 
@@ -56,7 +56,7 @@ DIV.login {
     width: auto !important;
     text-decoration: none !important;
     position: relative !important;
-    background-color: #606260 !important;
+    background-color: #8b265e !important;
     color: white !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;

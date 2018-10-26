@@ -12,7 +12,7 @@ CONFIG()->set('frontend/assets/js',         ['js/vendor.min.js', 'js/site.min.js
 CONFIG()->set('frontend/query_params',      ['hello', 'test']);
 
 // Login page custom CSS file.
-CONFIG()->set('dashboard/login/css', 'css/login.css');
+CONFIG()->set('dashboard/login/css', 'css/dashboard_login.css');
 
 // Dashboard custom CSS file.
 CONFIG()->set('dashboard/css', 'css/dashboard.css');
@@ -26,12 +26,15 @@ CONFIG()->set('dashboard/metabox', [
 // Dashboard settings for Content Editor.
 CONFIG()->set('dashboard/editor/customize', true);
 CONFIG()->set('dashboard/editor/css', 'css/dashboard_editor.css');
-CONFIG()->set('dashboard/editor/buttons_1', ['formatselect', 'bold']);
-CONFIG()->set('dashboard/editor/buttons_2', ['undo','redo']);
+CONFIG()->set('dashboard/editor/buttons_1', ['formatselect', 'bold', 'undo', 'redo', 'removeformat']);
+// CONFIG()->set('dashboard/editor/buttons_2', ['']);
 CONFIG()->set('dashboard/editor/formats', 'Paragraph=p;Large Heading=h2;Small Heading=h3');
 
 // Dashboard footer credit.
-CONFIG()->set('dashboard/footer_credit', '<a href="http://www.forofficeuseonly.com" style="text-decoration: none; color: inherit;" target="_blank">Website by For Office Use Only</a>');
+CONFIG()->set('dashboard/footer_credit', '<a href="http://www.louiswalch.com" style="text-decoration: none; color: inherit;" target="_blank">Website by LOUIS ♥</a>');
 
 // Disable `posts` functionality.
-CONFIG()->set('posts', false);
+CONFIG()->set('support/posts', false);
+
+// Automatically load custom post type declarations.
+CONFIG()->set('custom_types/autoload', true);

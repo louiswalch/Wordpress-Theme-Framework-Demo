@@ -3,12 +3,12 @@
 
 BODY {
     font-family: Arial, sans-serif;
-    color: #000;
+    color: DarkMagenta;
     font-size: 14px;
     line-height: 18px;
     padding: 15px;
     margin: 0;
-    background-color: red;
+    background-color: yellow;
 }
 BODY.wp-autoresize {
     padding: 15px !important;
